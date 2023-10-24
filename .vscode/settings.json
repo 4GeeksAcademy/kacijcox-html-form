@@ -4,5 +4,8 @@
     "workbench.editorAssociations": {   
         "*.md": "vscode.markdown.preview.editor"
     },
-    "livePreview.defaultPreviewPath": "/index.html"
+    "livePreview.defaultPreviewPath": "/index.html",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
 }
