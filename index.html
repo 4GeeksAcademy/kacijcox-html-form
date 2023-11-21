@@ -13,7 +13,7 @@
 <body>
     <form class="centered-form">
         <div class="container-fluid bg-light">
-            <div class="row">
+            <div class="row" id="text">
                 <h2>Payment form example</h2>
             </div>
         </div>
@@ -122,19 +122,28 @@
                 <div class="col-4 d-flex justify-content-center">
                     <div class="form-check">
                         <div class="row bg-light">
-                        <i class="fa fa-brands fa-cc-mastercard mr-4"></i>
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <i class="fa fa-brands fa-cc-visa mr-4"></i>
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                        <i class="fa fa-brands fa-cc-diners-club mr-4"></i>
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                        <i class="fa fa-brands fa-cc-amex mr-4"></i>
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                            <div class="col">
+                                <i class="fa fa-brands fa-cc-mastercard mr-4"></i>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            </div>
+                            <div class="col">
+                                <i class="fa fa-brands fa-cc-visa mr-4"></i>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            </div>
+                            <div class="col">
+                                <i class="fa fa-brands fa-cc-diners-club mr-4"></i>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                            </div>
+                            <div class="col">
+                                <i class="fa fa-brands fa-cc-amex mr-4"></i>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                            </div>
+                        </div>
                     </div>
-                    </div>
+                    
                 </div>
-                <div class="col-3">
-                    <div class="row mr-6 ml-5">
+                <div class="col-4 offset-md-2" >
+                    <div class="row">
                     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                 </div>
@@ -143,7 +152,7 @@
             </div>
         </div>
         </div>
-        <div class="container-fluid bg-light">
+        <div class="container-fluid" id="bottom">
             <div class="row mt-5">
                 <div class="col-12 d-flex justify-content-end">
                     <button type="button" class="btn btn-secondary btn-md mr-3">Cancel</button>

@@ -1,4 +1,19 @@
 .centered-form {
     margin: 1rem auto;
     width: 75%;
+
+}
+
+#text, #bottom {
+    background-color: rgb(47, 179, 255);
+
+}
+
+
+
+#buttons {
+    max-width: auto;
+    max-height: auto;
+    width: 100px;
+    height:100px
 }
